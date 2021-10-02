@@ -1,6 +1,20 @@
 # AT90USBKEY2
 Original sources and programs for AT90USBKEY2 + own code &amp; patches
 
+evil mass storage *AT90USBKEY2 (poc-malware-tool for offline system):
+
+https://github.com/David-Reguera-Garcia-Dreg/evilmass_at90usbkey2/
+
+my pull request adding new ClassDriver MassStorageSDKeyboard Demo for LUFA - the Lightweight USB Framework for AVRs:
+
+https://github.com/abcminiuser/lufa/pull/158
+
+just my own adaptation for mass storage sd card and keyboard for AT90USBKEY2:
+
+https://github.com/David-Reguera-Garcia-Dreg/lufa-sdcard-mass-storagekeyboard-fatfs-AT90USBKEY2
+
+# Instructions
+
 Just download the last release: https://github.com/David-Reguera-Garcia-Dreg/AT90USBKEY2/releases/download/1/AT90USBKEY2_1.zip
 
 here Dreg's patchs:
