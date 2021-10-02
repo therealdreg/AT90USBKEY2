@@ -17,7 +17,9 @@ https://github.com/David-Reguera-Garcia-Dreg/lufa-sdcard-mass-storagekeyboard-fa
 
 # Instructions
 
-Just download the last release: https://github.com/David-Reguera-Garcia-Dreg/AT90USBKEY2/releases/download/1/AT90USBKEY2_1.zip
+Just download the last release: 
+
+  * https://github.com/David-Reguera-Garcia-Dreg/AT90USBKEY2/releases/download/1/AT90USBKEY2_2.zip
 
 here Dreg's patchs:
 
