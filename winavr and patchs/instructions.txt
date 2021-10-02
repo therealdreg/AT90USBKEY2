@@ -1,0 +1,129 @@
+copy this folder to root to compile C:\ 
+
+install winavr
+copy msys content to: C:\WinAVR-20100110\utils\bin
+
+in these folders EXECUTE make:  
+
+
+C:\AVR273_USB_Mass_Storage_patched_by_dreg_for_winavr\at90usb128\demo\USBKEY-series6-ms_df\gcc
+
+C:\USBKEY-series7-host_ms_hidmouse_dfu_device_2hid_ms-2_0_2-doc_patched_by_dreg_for_winavr\at90usb128\demo\USBKEY-series7-host_ms_hidmouse_dfu_device_2hid_ms\gcc
+
+C:\USBKEY_STK525-series6-hidkbd-2_0_3-doc_patched_by_dreg_for_winavr\at90usb128\demo\USBKEY_STK525-series6-hidkbd\gcc
+
+
+
+The results should be:
+
+
+C:\USBKEY_STK525-series6-hidkbd-2_0_3-doc_patched_by_dreg_for_winavr\at90usb128\demo\USBKEY_STK525-series6-hidkbd\gcc>make
+Building file: ../../../../common/lib_mcu/wdt/wdt_drv.c
+Building file: ../keyboard_task.c
+Building file: ../../../lib_mcu/power/power_drv.c
+Building file: ../../../../common/modules/scheduler/scheduler.c
+Building file: ../../../lib_board/stk_525/stk_525.c
+Building file: ../main.c
+Building file: ../usb_descriptors.c
+Building file: ../../../modules/usb/device_chap9/usb_device_task.c
+Building file: ../../../lib_mcu/usb/usb_drv.c
+Building file: ../usb_specific_request.c
+Building file: ../../../modules/usb/device_chap9/usb_standard_request.c
+Building file: ../../../modules/usb/usb_task.c
+Linking
+Create hex file
+AVR Memory Usage
+----------------
+Device: at90usb1286
+
+Program:    4302 bytes (3.3% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (0.3% Full)
+(.data + .bss + .noinit)
+
+
+
+
+
+
+C:\USBKEY-series7-host_ms_hidmouse_dfu_device_2hid_ms-2_0_2-doc_patched_by_dreg_for_winavr\at90usb128\demo\USBKEY-series7-host_ms_hidmouse_dfu_device_2hid_ms\gcc>make
+Building file: ../../../../common/lib_mcu/wdt/wdt_drv.c
+Building file: ../../../../common/modules/scheduler/scheduler.c
+Building file: ../../../../common/lib_mcu/adc/adc_drv.c
+Building file: ../../../lib_system/memory/memory.c
+Building file: ../../../lib_mcu/util/start_boot.c
+Building file: ../../../lib_mcu/power/power_drv.c
+Building file: ../../../lib_mcu/usb/usb_drv.c
+Building file: ../../../lib_board/usb_key/usb_key.c
+Building file: ../../../lib_mem/df/df_mem.c
+Building file: ../../../lib_mem/df/df.c
+Building file: ../../../lib_mem/host_mem/host_mem.c
+Building file: ../../../modules/file_system/nav_utils.c
+Building file: ../../../modules/file_system/fat.c
+Building file: ../../../modules/file_system/fat_unusual.c
+Building file: ../../../modules/file_system/navigation.c
+Building file: ../../../modules/file_system/file.c
+Building file: ../../../modules/control_access/ctrl_access.c
+Building file: ../../../modules/scsi_decoder/scsi_decoder.c
+Building file: ../../../modules/usb/usb_task.c
+Building file: ../../../modules/usb/device_chap9/usb_standard_request.c
+Building file: ../../../modules/usb/device_chap9/usb_device_task.c
+Building file: ../../../modules/usb/host_chap9/usb_host_enum.c
+Building file: ../../../modules/usb/host_chap9/usb_host_hub.c
+Building file: ../../../modules/usb/host_chap9/usb_host_task.c
+Building file: ../storage_task.c
+Building file: ../usb_descriptors.c
+Building file: ../usb_specific_request.c
+Building file: ../device_mouse_task.c
+Building file: ../hid_task.c
+Building file: ../host_dfu_task.c
+Building file: ../host_mouse_task.c
+Building file: ../host_ms_task.c
+Building file: ../main.c
+Linking
+Create hex file
+AVR Memory Usage
+----------------
+Device: at90usb1287
+
+Program:   47848 bytes (36.5% Full)
+(.text + .data + .bootloader)
+
+Data:       2703 bytes (33.0% Full)
+(.data + .bss + .noinit)
+
+
+
+
+
+C:\AVR273_USB_Mass_Storage_patched_by_dreg_for_winavr\at90usb128\demo\USBKEY-series6-ms_df\gcc>make
+Building file: ../../../../common/lib_mcu/wdt/wdt_drv.c
+Building file: ../main.c
+Building file: ../../../modules/control_access/ctrl_access.c
+Building file: ../usb_descriptors.c
+Building file: ../../../modules/usb/device_chap9/usb_device_task.c
+Building file: ../../../lib_mcu/usb/usb_drv.c
+Building file: ../usb_specific_request.c
+Building file: ../../../modules/usb/device_chap9/usb_standard_request.c
+Building file: ../../../modules/usb/usb_task.c
+Building file: ../../../lib_mem/df/df_mem.c
+Building file: ../../../lib_mem/df/df.c
+Building file: ../../../lib_mcu/power/power_drv.c
+Building file: ../../../../common/modules/scheduler/scheduler.c
+Building file: ../../../modules/scsi_decoder/scsi_decoder.c
+Building file: ../storage_task.c
+Linking
+Create hex file
+AVR Memory Usage
+----------------
+Device: at90usb1286
+
+Program:    9164 bytes (7.0% Full)
+(.text + .data + .bootloader)
+
+Data:         56 bytes (0.7% Full)
+(.data + .bss + .noinit)
+
+
+

@@ -1,0 +1,24 @@
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <avr/pgmspace.h>
+#include "uart.h"
+
+#ifndef F_CPU
+	#define F_CPU 8000000UL
+#endif
+
+#define UART_BAUD_RATE	57600
+
+int main(void)
+{
+
+	CLKPR = (1<<CLKPCE); // set CLKPR bit to change clock prescaler
+	CLKPR = 0; // no clock prescaler
+
+    uart_init( UART_BAUD_SELECT(UART_BAUD_RATE,F_CPU) );
+    sei(); // enable interrupts for uart library
+
+    uart_puts_P("Hello World\r\n");
+
+    while(1);
+}
