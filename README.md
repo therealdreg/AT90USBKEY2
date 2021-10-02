@@ -1,5 +1,7 @@
 # AT90USBKEY2
-Original sources and programs for AT90USBKEY2 + own code &amp; patches
+Original sources and programs for AT90USBKEY2 + own code &amp; patches 
+
+**WARNING: my code is beta and crap**
 
 evil mass storage *AT90USBKEY2 (poc-malware-tool for offline system):
 
