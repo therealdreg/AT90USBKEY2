@@ -2,6 +2,8 @@
 
 Original sources and programs for AT90USBKEY2 + own code &amp; patches. 
 
+Please, consider make a donation: https://github.com/sponsors/therealdreg
+
 **WARNING: my code is beta and crap. btw, CORSAIR KEYBOARD can cause problems with ATMEL ICE, put the keyboard in BIOS MODE**
 
 evil mass storage *AT90USBKEY2 (poc-malware-tool for offline system):
